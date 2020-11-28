@@ -33,6 +33,10 @@ end = time()
 
 print('Found %d results from the web in %s' %(int_result_num, end - start) + ' seconds.')
 
+#Delete time variables to clear RAM
+del start
+del end
+
 #Ask user if they want to open the links in the web browser with validation
 open_in_browser = input('Do you want to open the given URLs in your web browser (Y/N)? ')
 
