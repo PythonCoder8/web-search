@@ -14,7 +14,11 @@ from googlesearch import search
 import sys
 import webbrowser
 
-search_query = input('What do you want to search for on the web?: ')
+width = 40
+titletxt = 'Web-Search'
+title = titletxt.center(width)
+print(title)
+search_query = input('\nWhat do you want to search for on the web?: ')
 result_num = input('How many results do you want to retrieve from the web?: ')
 
 #Verify user input
