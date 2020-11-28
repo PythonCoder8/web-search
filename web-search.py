@@ -28,7 +28,7 @@ print('The top %d results from the web are:' %(int_result_num))
 
 start = time()
 for url in search(search_query, tld='com', stop=int_result_num):
-    print(url)
+    print(url + " - %s" %(url.split('/')[2]))
 end = time()
 
 print('Found %d results from the web in %s' %(int_result_num, end - start) + ' seconds.')
