@@ -8,16 +8,20 @@
 #########################################################################################
 
 
-#Import required libraries
 from time import time
 from googlesearch import search
 import sys
 import webbrowser
 
+#Print title using variables and delete after using variables to clear up RAM
 width = 40
 titletxt = 'Web-Search'
 title = titletxt.center(width)
 print(title)
+del width
+del titletxt
+del title
+
 search_query = input('\nWhat do you want to search for on the web?: ')
 result_num = input('How many results do you want to retrieve from the web?: ')
 
