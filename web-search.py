@@ -15,7 +15,7 @@ try:
 
     #Print title using variables and delete after using variables to clear up RAM
     width = 40
-    titletxt = 'Web-Search'
+    titletxt = '\033[1;32;40mWeb-Search'
     title = titletxt.center(width)
     print(title)
     del width
