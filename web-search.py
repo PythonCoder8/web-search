@@ -15,7 +15,7 @@ try:
 
     #Print title using variables and delete after using variables to clear up RAM
     width = 40
-    titletxt = '\033[1;32;40mWeb-Search'
+    titletxt = 'Web-Search'
     title = titletxt.center(width)
     print(title)
     del width
@@ -66,4 +66,4 @@ try:
             elif open_in_browser.upper() == 'N':
                 sys.exit('Ok! Bye!')
 except:
-    print("\033[1;31;40mSomething went wrong.")
+    print("Something went wrong.")
