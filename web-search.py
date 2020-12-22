@@ -2,8 +2,7 @@
 #Developed by              : PythonCoder8
 #Requires Pip installation : pip install google
 #Description               : Search web for query and retrieve a selected amount of URLs
-#Python version            : Major = 3
-#Only tested with 3.8.5
+#Only tested with Python version 3.8.5. May not work on Python version 3.8 or under
 
 #########################################################################################
 
